@@ -1,0 +1,28 @@
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\Oregon Trail.exe.config
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\Oregon Trail.exe
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\Oregon Trail.pdb
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\App.g.cs
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon Trail_MarkupCompile.cache
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon Trail_MarkupCompile.lref
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\MainWindow.baml
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon Trail.g.resources
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon_Trail.Properties.Resources.resources
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon Trail.csproj.GenerateResource.Cache
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon Trail.exe
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon Trail.pdb
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\Startwindow.g.cs
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\Startwindow.baml
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Oregon Trail.csprojResolveAssemblyReference.cache
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\Continue.g.cs
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\EntityFramework.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\System.Data.SQLite.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\TLog.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\TLog.pdb
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\EntityFramework.xml
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\System.Data.SQLite.xml
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\Continue.baml

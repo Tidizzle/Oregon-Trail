@@ -1,0 +1,5 @@
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\TLog\bin\Debug\TLog.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\TLog\bin\Debug\TLog.pdb
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\TLog\obj\Debug\TLog.csprojResolveAssemblyReference.cache
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\TLog\obj\Debug\TLog.dll
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\TLog\obj\Debug\TLog.pdb
