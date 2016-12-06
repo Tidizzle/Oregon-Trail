@@ -45,10 +45,9 @@ namespace Oregon_Trail.Classes
            dataAdapter = new SQLiteDataAdapter(sql, dbCon);
            dataAdapter.Fill(OTDS, table);
 
-           for (int i = 0; i < Game.EnabledGames.Count; i++)
+           for (int i = 0; i < EnabledGames.Count; i++)
            {
-               if (Game.EnabledGames[i] == true)
-               {
+
                    Game newgame = new Game();
 
                    newgame.LeaderName = OTDS.Tables[0].Rows[i]["leaderName"]?.ToString();
@@ -78,7 +77,6 @@ namespace Oregon_Trail.Classes
                    newgame.NumTongues = int.Parse(OTDS.Tables[0].Rows[i]["numTongues"]?.ToString());
 
                    Game.GameList.Add(newgame);
-               }
            }
 
            sql = "SELECT * FROM generalStore";

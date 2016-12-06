@@ -23,13 +23,10 @@ namespace Oregon_Trail.Windows
     public partial class Continue : Window
     {
 
-        internal static Continue con;
         public Continue()
         {
             InitializeComponent();
-            con = this;
-
-            loadinfo();
+            loadinfo(this);
         }
 
         private void PreviousPage_Click(object sender, RoutedEventArgs e)
@@ -39,15 +36,87 @@ namespace Oregon_Trail.Windows
             this.Close();
         }
 
-        public static void loadinfo()
+        public static void loadinfo(Continue Win)
         {
+            string progress, city, date, miles, money, health, text;
+            string Notstarted = " Game Not@ Started";
+            Notstarted = Notstarted.Replace("@", Environment.NewLine);
 
+            for(int i = 0; i < db.EnabledGames.Count; i++)
+            {
+                if (db.EnabledGames[i] == true)
+                {
+                    progress = Game.GameList[i].Progress.ToString();
+                    city = Game.GameList[i].CurrentLocation;
+                    date = Game.GameList[i].CurrentDay;
+                    miles = Game.GameList[i].MilesTraveled.ToString();
+                    money = Game.GameList[i].CurrentMoney.ToString();
+                    health = Game.GameList[i].CurrentHealth.ToString();
+
+                    text = String.Format(" Progress- {0}@ City- {1}@ Date- {2}@ Miles- {3}@ Money- {4}@ Health- {5}@",progress,city,date, miles, money, health);
+                    text = text.Replace("@", Environment.NewLine);
+
+                }
+                else
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            Win.game1Desc.Text = Notstarted;
+                            break;
+                        case 1:
+                            Win.game2Desc.Text = Notstarted;
+                            break;
+                        case 2:
+                            Win.game3Desc.Text = Notstarted;
+                            break;
+                    }
+                }
+            }
 
 
         }
 
         private void game1Button_Click(object sender, RoutedEventArgs e)
         {
+            if(db.EnabledGames[0] == true)
+            {
+                //ADD SUPPORT
+            }
+            else if(db.EnabledGames[0] == false)
+            {
+                NewGame game1 = new NewGame(0, this);
+                game1.Show();
+                this.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void game2Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (db.EnabledGames[1] == true)
+            {
+                //ADD SUPPORT
+            }
+            else if (db.EnabledGames[1] == false)
+            {
+                NewGame game1 = new NewGame(1, this);
+                game1.Show();
+                this.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void game3Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (db.EnabledGames[2] == true)
+            {
+                //ADD SUPPORT
+            }
+            else if (db.EnabledGames[2] == false)
+            {
+                NewGame game1 = new NewGame(2, this);
+                game1.Show();
+                this.Visibility = Visibility.Hidden;
+            }
         }
 
 
@@ -103,5 +172,6 @@ namespace Oregon_Trail.Windows
             }
         */
         #endregion
+
     }
 }

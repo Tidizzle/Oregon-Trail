@@ -1,0 +1,82 @@
+﻿<Window x:Class="Oregon_Trail.Windows.NewGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oregon_Trail.Windows"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="OREGON TRAIL" Height="400" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="98*"/>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="98*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="PreviousPage" Content="&lt;-" FontWeight="ExtraBlack" Grid.RowSpan="2" Height="40" Width="40" Click="PreviousPage_Click"/>
+
+        
+
+        <Label x:Name="leadernameLbl" Content="Your Name:" FontSize="15" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="13,0"/>
+        <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="2" Grid.Column="1" Height="20" Width="90" Margin="10,2,9,3">
+            <TextBox x:Name="leadertextbox"  Height="20" Width="90" Background="White"/>
+        </Border>
+        <Label x:Name="proflbl" Content="You Are A ..." FontSize="15" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="12,0"/>
+
+
+        <ComboBox x:Name="professionbox" Grid.Row="3" Grid.Column="1" Height="20" Width="90" Background="White">
+            <ComboBoxItem Name="cbi1" >Farmer</ComboBoxItem>
+            <ComboBoxItem Name="cbi2" >Banker</ComboBoxItem>
+            <ComboBoxItem Name="cbi3">Blacksmith</ComboBoxItem>
+            <ComboBoxItem Name="cbi4">Carpenter</ComboBoxItem>
+        </ComboBox>
+
+        <Label x:Name="lbl1" Content="Names of your party" Grid.ColumnSpan="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="12" Margin="48,0,49,0"/>
+
+        <Label x:Name="pass1lbl" Content="Passenger 1:" FontSize="15" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="12,0" />
+        <Label x:Name="pass2lbl" Content="Passenger 2:" FontSize="15" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="12,0" />
+        <Label x:Name="pass3lbl" Content="Passenger 3:" FontSize="15" Grid.Row="6" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="12,0"/>
+        <Label x:Name="pass4lbl" Content="Passenger 4:" FontSize="15" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="12,0"/>
+
+        <Border BorderBrush="Gray" BorderThickness="1" Grid.Column="1" Grid.Row="6" Height="20" Width="90" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="pass1textbox" Height="20" Width="90" Background="White"/>
+        </Border>
+        <Border BorderBrush="Gray" BorderThickness="1" Grid.Column="3" Grid.Row="7" Height="20" Width="90" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="pass2textbox" Height="20" Width="90" Background="White"/>
+        </Border>
+        <Border BorderBrush="Gray" BorderThickness="1" Grid.Column="3" Grid.Row="6" Height="20" Width="90" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="pass3textbox" Height="20" Width="90" Background="White"/>
+        </Border>
+        <Border BorderBrush="Gray" BorderThickness="1" Grid.Column="1" Grid.Row="7" Height="20" Width="90" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="pass4textbox" Height="20" Width="90" Background="White"/>
+        </Border>
+
+        <Label x:Name="difficultybox" FontSize="15" Content="Difficulty:" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="9" Grid.Column="0"/>
+
+        <Border BorderBrush="Gray" BorderThickness="1" Grid.Column="1" Grid.Row="9" Height="20" Width="90" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="Difficultybox" Height="20" Width="90" Background="White" IsEnabled="False"/>
+        </Border>
+
+
+        <Button x:Name="startbutton" Height="35" Width="100" Content="START" FontSize="20" FontWeight="ExtraBlack" Grid.Row="9" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Click="startbutton_Click"/>
+
+        <Image Source="/Resource/wagon.ico" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="5"/>
+    </Grid>
+</Window>

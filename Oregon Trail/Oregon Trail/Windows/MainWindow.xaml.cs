@@ -28,8 +28,7 @@ namespace Oregon_Trail
         {
             MAINLOG.ClearLog();
             InitializeComponent();
-            Classes.db.LoadData();
-            
+            Classes.db.LoadData();        
         }
 
         public Startwindow start_win;

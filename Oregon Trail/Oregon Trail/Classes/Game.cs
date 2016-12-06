@@ -8,7 +8,6 @@ namespace Oregon_Trail.Classes
 {
     class Game
     {
-        public static List<bool> EnabledGames = new List<bool>();
         public static List<Game> GameList = new List<Game>();
 
         private int gamenum;

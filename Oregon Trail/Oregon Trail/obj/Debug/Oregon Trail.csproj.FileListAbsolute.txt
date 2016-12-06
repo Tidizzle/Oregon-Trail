@@ -26,3 +26,5 @@ C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bi
 C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\bin\Debug\System.Data.SQLite.xml
 C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\Continue.baml
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\NewGame.g.cs
+C:\Users\Zach\Documents\Visual Studio 2015\Projects\Oregon Trail\Oregon Trail\obj\Debug\Windows\NewGame.baml
